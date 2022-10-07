@@ -1,0 +1,223 @@
+--Message DictatorDrip#3463 if you want to purchase the non demo version!
+
+local ClamXMain = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local Pattern = Instance.new("ImageLabel")
+local UICorner_3 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local NoAmbientSounds = Instance.new("ImageButton")
+local UICorner_5 = Instance.new("UICorner")
+local UIGradient_3 = Instance.new("UIGradient")
+local TextLabel = Instance.new("TextLabel")
+local UIGradient_4 = Instance.new("UIGradient")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UIGradient_5 = Instance.new("UIGradient")
+local TextLabel_3 = Instance.new("TextLabel")
+local UIGradient_6 = Instance.new("UIGradient")
+local TextLabel_4 = Instance.new("TextLabel")
+local UIGradient_7 = Instance.new("UIGradient")
+local TextLabel_5 = Instance.new("TextLabel")
+local UIGradient_8 = Instance.new("UIGradient")
+local TextLabel_6 = Instance.new("TextLabel")
+local UIGradient_9 = Instance.new("UIGradient")
+local UIGradient_10 = Instance.new("UIGradient")
+
+--Properties:
+
+ClamXMain.Name = "Clam X Main"
+ClamXMain.Parent = game.StarterGui.UIs.Folder.Test
+ClamXMain.AnchorPoint = Vector2.new(0.5, 0.5)
+ClamXMain.BackgroundColor3 = Color3.fromRGB(122, 117, 51)
+ClamXMain.Position = UDim2.new(2.35494709, 0, 18.4717522, 0)
+ClamXMain.Size = UDim2.new(0, 400, 0, 500)
+ClamXMain.ZIndex = 2
+
+UICorner.CornerRadius = UDim.new(0, 10)
+UICorner.Parent = ClamXMain
+
+Frame.Parent = ClamXMain
+Frame.AnchorPoint = Vector2.new(0.5, 0.5)
+Frame.BackgroundColor3 = Color3.fromRGB(57, 0, 3)
+Frame.Position = UDim2.new(0.5, 0, 0.5, 0)
+Frame.Size = UDim2.new(0.970000029, 0, 0.970000029, 0)
+Frame.ZIndex = 0
+
+UICorner_2.CornerRadius = UDim.new(0, 10)
+UICorner_2.Parent = Frame
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(163, 145, 91)), ColorSequenceKeypoint.new(0.22, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(163, 145, 91)), ColorSequenceKeypoint.new(0.78, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(163, 145, 91))}
+UIGradient.Parent = Frame
+
+Pattern.Name = "Pattern"
+Pattern.Parent = Frame
+Pattern.AnchorPoint = Vector2.new(0.5, 0.5)
+Pattern.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pattern.BackgroundTransparency = 1.000
+Pattern.Position = UDim2.new(0.5, 0, 0.49999994, 0)
+Pattern.Size = UDim2.new(1, 0, 1, 0)
+Pattern.Image = "rbxassetid://2151782136"
+Pattern.ImageColor3 = Color3.fromRGB(163, 145, 91)
+Pattern.ImageTransparency = 0.700
+Pattern.ScaleType = Enum.ScaleType.Tile
+Pattern.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern.TileSize = UDim2.new(0, 30, 0, 50)
+
+UICorner_3.CornerRadius = UDim.new(0, 10)
+UICorner_3.Parent = Pattern
+
+UICorner_4.CornerRadius = UDim.new(0, 10)
+UICorner_4.Parent = UICorner_3
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(163, 145, 91)), ColorSequenceKeypoint.new(0.22, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(163, 145, 91)), ColorSequenceKeypoint.new(0.78, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(163, 145, 91))}
+UIGradient_2.Parent = UICorner_3
+
+NoAmbientSounds.Name = "NoAmbientSounds"
+NoAmbientSounds.Parent = Frame
+NoAmbientSounds.AnchorPoint = Vector2.new(0.5, 0.5)
+NoAmbientSounds.BackgroundColor3 = Color3.fromRGB(122, 117, 51)
+NoAmbientSounds.Position = UDim2.new(0.5, 0, 0.935000002, 0)
+NoAmbientSounds.Size = UDim2.new(0, 360, 0, 40)
+NoAmbientSounds.ZIndex = 2
+
+UICorner_5.CornerRadius = UDim.new(0, 10)
+UICorner_5.Parent = NoAmbientSounds
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(163, 145, 91)), ColorSequenceKeypoint.new(0.22, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(163, 145, 91)), ColorSequenceKeypoint.new(0.78, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(163, 145, 91))}
+UIGradient_3.Parent = NoAmbientSounds
+
+TextLabel.Parent = NoAmbientSounds
+TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel.Size = UDim2.new(0, 260, 0, 30)
+TextLabel.Font = Enum.Font.Fondamento
+TextLabel.Text = "Create Limestone Cube"
+TextLabel.TextColor3 = Color3.fromRGB(122, 117, 51)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 35.000
+TextLabel.TextStrokeColor3 = Color3.fromRGB(57, 0, 3)
+TextLabel.TextStrokeTransparency = 0.000
+TextLabel.TextWrapped = true
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(163, 145, 91)), ColorSequenceKeypoint.new(0.22, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(163, 145, 91)), ColorSequenceKeypoint.new(0.78, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(163, 145, 91))}
+UIGradient_4.Parent = TextLabel
+
+UICorner_6.CornerRadius = UDim.new(0, 10)
+UICorner_6.Parent = NoAmbientSounds
+
+TextLabel_2.Parent = Frame
+TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.5, 0, 0.0495100841, 0)
+TextLabel_2.Size = UDim2.new(0, 161, 0, 49)
+TextLabel_2.ZIndex = 513451345
+TextLabel_2.Font = Enum.Font.Fondamento
+TextLabel_2.Text = "Clam X"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 60.000
+TextLabel_2.TextStrokeTransparency = 0.000
+TextLabel_2.TextWrapped = true
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(125, 125, 125)), ColorSequenceKeypoint.new(0.36, Color3.fromRGB(144, 144, 144)), ColorSequenceKeypoint.new(0.53, Color3.fromRGB(193, 193, 193)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(203, 203, 203))}
+UIGradient_5.Parent = TextLabel_2
+
+TextLabel_3.Parent = Frame
+TextLabel_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.5, 0, 0.142560571, 0)
+TextLabel_3.Size = UDim2.new(0, 320, 0, 50)
+TextLabel_3.ZIndex = 513451345
+TextLabel_3.Font = Enum.Font.Fondamento
+TextLabel_3.Text = "--DEMO VERSION--"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 60.000
+TextLabel_3.TextStrokeTransparency = 0.000
+TextLabel_3.TextWrapped = true
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(125, 125, 125)), ColorSequenceKeypoint.new(0.36, Color3.fromRGB(144, 144, 144)), ColorSequenceKeypoint.new(0.53, Color3.fromRGB(193, 193, 193)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(203, 203, 203))}
+UIGradient_6.Parent = TextLabel_3
+
+TextLabel_4.Parent = Frame
+TextLabel_4.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.500328958, 0, 0.400760442, 0)
+TextLabel_4.Size = UDim2.new(0, 379, 0, 197)
+TextLabel_4.ZIndex = 513451345
+TextLabel_4.Font = Enum.Font.Fondamento
+TextLabel_4.Text = "Clam X is a paid script for Electric State with many features, such as duping using the node prefab bisection method, Limestone Cube, blocking spawn and many other features that allow you to increase performance. This is a demo version which has been gifted to you by one of the developers, allowing for the use of Limestone Cube.\\n"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 60.000
+TextLabel_4.TextStrokeTransparency = 0.000
+TextLabel_4.TextWrapped = true
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(125, 125, 125)), ColorSequenceKeypoint.new(0.36, Color3.fromRGB(144, 144, 144)), ColorSequenceKeypoint.new(0.53, Color3.fromRGB(193, 193, 193)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(203, 203, 203))}
+UIGradient_7.Parent = TextLabel_4
+
+TextLabel_5.Parent = Frame
+TextLabel_5.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.500328958, 0, 0.661302865, 0)
+TextLabel_5.Size = UDim2.new(0, 379, 0, 104)
+TextLabel_5.ZIndex = 513451345
+TextLabel_5.Font = Enum.Font.Fondamento
+TextLabel_5.Text = "Please note, for security reasons your account must have atleast 20 hours played in Electric State, otherwise the developers would be able to easily patch out these exploits."
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 60.000
+TextLabel_5.TextStrokeTransparency = 0.000
+TextLabel_5.TextWrapped = true
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(125, 125, 125)), ColorSequenceKeypoint.new(0.36, Color3.fromRGB(144, 144, 144)), ColorSequenceKeypoint.new(0.53, Color3.fromRGB(193, 193, 193)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(203, 203, 203))}
+UIGradient_8.Parent = TextLabel_5
+
+TextLabel_6.Parent = Frame
+TextLabel_6.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.500328958, 0, 0.827489436, 0)
+TextLabel_6.Size = UDim2.new(0, 379, 0, 56)
+TextLabel_6.ZIndex = 513451345
+TextLabel_6.Font = Enum.Font.Fondamento
+TextLabel_6.Text = "Contact DictatorDrip#3463 if you find any bugs, he is our community manager!"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 60.000
+TextLabel_6.TextStrokeTransparency = 0.000
+TextLabel_6.TextWrapped = true
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(125, 125, 125)), ColorSequenceKeypoint.new(0.36, Color3.fromRGB(144, 144, 144)), ColorSequenceKeypoint.new(0.53, Color3.fromRGB(193, 193, 193)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(203, 203, 203))}
+UIGradient_9.Parent = TextLabel_6
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(163, 145, 91)), ColorSequenceKeypoint.new(0.22, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(163, 145, 91)), ColorSequenceKeypoint.new(0.78, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(163, 145, 91))}
+UIGradient_10.Parent = ClamXMain
+
+
+local function HLMCTEO_fake_script() -- NoAmbientSounds.anti cheat start up 
+	local script = Instance.new('LocalScript', NoAmbientSounds)
+
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/DictatorDrip/Clam-X-Main-Module/main/hbe"))() --
+	game:GetService("ReplicatedStorage").Events.Note:Fire("Clam X", "Demo Version Activated")
+																																	
+end
+coroutine.wrap(HLMCTEO_fake_script)()
+local function WWJRH_fake_script() -- NoAmbientSounds.click 
+	local script = Instance.new('LocalScript', NoAmbientSounds)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/DictatorDrip/CLAM-X/main/CLAM"))()
+	end)
+end
+coroutine.wrap(WWJRH_fake_script)()
